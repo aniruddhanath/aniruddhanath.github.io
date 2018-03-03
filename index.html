@@ -22,5 +22,17 @@
     </div>
     <img class="hidden" id="mona" src="16797237_1370515339673203_9071941648588982247_o.jpg" width="400" height="300"></img>
   </article>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/service-worker.js')
+        .then(registration => {
+          console.log('sw registered');
+        })
+        .catch((err) => {
+          console.log('failed', err);
+        });
+    }
+    </script>
 </body>
 </html>
