@@ -1,0 +1,13 @@
+{
+    "name": "Aniruddha",
+    "version": "0.1",
+    "icons": [{
+        "src":"16797237_1370515339673203_9071941648588982247_o.ico",
+        "sizes": "192x192",
+        "type": "image/ico"
+    }],
+    "start_url": "/index.html?utm_source=homescreen",
+    "background_color": "#7fffd4",
+    "theme_color": "#7fffd4",
+    "display": "standalone"
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+html,
+body {
+  margin: 0;
+  height: 100%; }
+
+body {
+  background: #7fffd4;
+  margin: 0;
+  width: 996px; }
+
+/* Column Layout */
+article {
+  position: relative;
+  z-index: 0;
+  width: 540px; }
+
+/* Fullscreen */
+body {
+  overflow: hidden; }
+body article {
+  position: absolute;
+  overflow: hidden;
+  width: auto;
+  padding: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0; }
+body article .hidden {
+  display: none;
+}
+body article .paperscript {
+  height: 100%;
+  margin-bottom: 0; }
+body article .canvas,
+body article canvas[resize] {
+  width: 100%;
+  height: 100%; }
